@@ -1,0 +1,35 @@
+@media (max-width: 640px) {
+    header {
+        display:flex;
+        width: 100%;
+        border: 2px solid black;
+        font-size: 16px;
+    }
+}
+
+.whole-thing {
+    width: 100%;
+}
+
+#header {
+    display:flex;   
+    width: 20%;
+    border: 2px solid black;
+    font-size: 16px;
+    float: left;
+
+}
+
+.photos:nth-child(:first) {
+    position: relative;
+    left: 10px;   
+    }
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+}
